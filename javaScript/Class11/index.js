@@ -21,13 +21,14 @@
 //     return Math.min.apply(null,arr);
 // }
 // console.log(minValue);
-const cars = [
-    {type:"Volvo", year:2016},
-    {type:"Saab", year:2001},
-    {type:"BMW", year:2010}
-  ];
+const points = [40,40,100, 1, 5, 25, 10];
+// const cars = [
+//     {type:"Volvo", year:2016},
+//     {type:"Saab", year:2001},
+//     {type:"BMW", year:2010}
+//   ];
 console.log(cars.sort(
     function(a,b){
-        return a.year-b.year;
+        return a-b;
 }
 )) 
